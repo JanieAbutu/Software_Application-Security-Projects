@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Injection Test</title>
+    <title>LDAP Injection</title>
 
     <style>
         input[type=text],
@@ -41,7 +41,7 @@
 <body>
     <h1>Login Form</h1>
     <div>
-        <form action="processing.php" method="post">
+        <form action="home.php" method="post">
 
             <label for="username">Username:</label><br>
             <input type="text" name="username" id="username" required><br>
@@ -56,5 +56,3 @@
     </div>
 </body>
 </html>
-
-
